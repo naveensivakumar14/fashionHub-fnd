@@ -1,6 +1,7 @@
 
 import proBanner from "../assets/images/product-img.jpg"
 
+
 function  Products(){
 
 
@@ -15,6 +16,8 @@ function  Products(){
             <div className="w-[600px] md:p-6">
                 <img className="w-full border-none rounded-md" src={proBanner} alt="product" />
             </div>
+
+         
         </div>
         
     )

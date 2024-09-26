@@ -5,6 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
+
+
 //image import
 import banner1 from "../assets/images/fh-hero1.jpg"
 import banner2 from "../assets/images/fh-hero2.jpg"

@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "type": "kids",
+      "img": "/imgs/kids-1.png",
+      "price": 29.99
+    },
+    {
+      "id": 2,
+      "type": "kids",
+      "img": "/imgs/kids-2.png",
+      "price": 34.99
+    },
+    {
+      "id": 3,
+      "type": "men",
+      "img": "/imgs/men-Jacket-1.png",
+      "price": 49.99
+    },
+    {
+      "id": 4,
+      "type": "men",
+      "img": "/imgs/men Jacket-2.png",
+      "price": 59.99
+    },
+    {
+      "id": 5,
+      "type": "men",
+      "img": "/imgs/men Jacket-3.png",
+      "price": 69.99
+    },
+    {
+      "id": 6,
+      "type": "men",
+      "img": "/imgs/Men TShirt-1.png",
+      "price": 19.99
+    },
+    {
+      "id": 7,
+      "type": "men",
+      "img": "/imgs/men TShirt-2.png",
+      "price": 24.99
+    },
+    {
+      "id": 8,
+      "type": "men",
+      "img": "/imgs/men TShirt-3.png",
+      "price": 29.99
+    },
+    {
+      "id": 9,
+      "type": "men",
+      "img": "/imgs/Trouser-1 men.png",
+      "price": 39.99
+    },
+    {
+      "id": 10,
+      "type": "men",
+      "img": "/imgs/Men Trouser-2.png",
+      "price": 44.99
+    },
+    {
+      "id": 11,
+      "type": "women",
+      "img": "/imgs/women casuals-1.png",
+      "price": 59.99
+    },
+    {
+      "id": 12,
+      "type": "women",
+      "img": "/imgs/women casuals.png",
+      "price": 64.99
+    },
+    {
+      "id": 13,
+      "type": "women",
+      "img": "/imgs/women Jacket-1.png",
+      "price": 79.99
+    },
+    {
+      "id": 14,
+      "type": "women",
+      "img": "/imgs/women Jacket-2.png",
+      "price": 89.99
+    },
+    {
+      "id": 15,
+      "type": "women",
+      "img": "/imgs/women top-1.png",
+      "price": 29.99
+    },
+    {
+      "id": 16,
+      "type": "women",
+      "img": "/imgs/women TShirt-1.png",
+      "price": 19.99
+    },
+    {
+      "id": 17,
+      "type": "men",
+      "img": "/imgs/men Shirt-1.png",
+      "price": 19.99
+    },
+    {
+      "id": 18,
+      "type": "men",
+      "img": "/imgs/men Jacket-3.png",
+      "price": 19.99
+    },
+    {
+      "id": 19,
+      "type": "kids",
+      "img": "/imgs/kids-2.png",
+      "price": 19.99
+    },
+    {
+      "id": 20,
+      "type": "men",
+      "img": "/imgs/men TShirt-3.png",
+      "price": 19.99
+    }
+
+  ]
+}
