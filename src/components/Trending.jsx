@@ -1,6 +1,9 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { useState
+
+ } from "react";
+import { useNavigate } from 'react-router-dom';
 
 import Slider from "react-slick";
 import pImg1 from "../assets/images/p-img1.png";
@@ -12,6 +15,31 @@ import pImg6 from "../assets/images/p-img6.png";
 
 function Trending() {
  
+  
+  //useNavigate for navigiton between trending,allproducts pages
+  const navigate=useNavigate();
+
+  // State to track which tab is active
+  const [activeTab, setActiveTab] = useState('trending');
+  const handleProductPage = () => {
+    setActiveTab('products'); // Set active state to 'products'
+    navigate('/Allproducts');
+  };
+  const handleTrendingPage = () => {
+    setActiveTab('trending'); // Set active state to 'trending'
+    navigate('/');
+  };
+
+  //usenavigation without dynamic buttons of trending,allproducts
+  // const handleproductpage = () => {
+  //   // Redirect to another page (e.g., "/Allproducts")
+  //   navigate('/Allproducts');
+  // };
+  // const handletrendingpage = () => {
+  //   // Redirect to another page (e.g., "/Allproducts")
+  //   navigate('/');
+  // };
+
 
   const trendProducts = [
     { id: 1, type: "women", img: pImg1 },
@@ -42,21 +70,29 @@ function Trending() {
 
   return (
     <div className="">
-      <div className="slider-container p-10 text-center bg-[#B7B7B7] md:p-14">
-        <h1 className="text-xl md:text-3xl md:ml-4 md:mb-4 font-semibold">Trending Products</h1>
+      <div className="slider-container p-10 bg-[#B7B7B7] md:p-14">
+      <h1 className="text-2xl md:text-3xl text-center  font-semibold">Trending Products</h1>
+        <div className="flex justify-center md:justify-end gap-6 py-10 ">
+          <p onClick={handleTrendingPage}
+            className={`px-4 py-2 font-semibold border-none rounded-md cursor-pointer ${
+              activeTab === 'trending' ? 'bg-slate-300 text-black' : 'bg-[#001F3F] text-white'
+            }`}
+          >Trending</p>
+          <p onClick={handleProductPage}
+            className={`px-4 py-2 font-semibold border-none rounded-md cursor-pointer ${
+              activeTab === 'products' ? 'bg-slate-300 text-black' : 'bg-[#001F3F] text-white'
+            }`}
+          >All Products</p>
+        </div>
+        
         <Slider {...settings}>
           {trendProducts.map((item) => (
             <div key={item.id} className="py-8 md:py-10">
-              <img src={item.img} alt={item.type} className="w-[90%] md:w-3/4" />
+              <img src={item.img} alt={item.type} className="w-[90%] md:w-3/4 border-none rounded-sm" />
             </div>
           ))}
         </Slider>
-        <Link to={'/Allproducts'}>
-        <button
-          type="button"
-          className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-        >All Products
-        </button></Link>
+        
       </div>
     </div>
   );

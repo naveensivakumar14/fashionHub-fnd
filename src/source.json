@@ -2,121 +2,141 @@
   "products": [
     {
       "id": 1,
-      "type": "kids",
+      "type": "Casual polka",
+      "categ":"kids",
       "img": "/imgs/kids-1.png",
       "price": 29.99
     },
     {
       "id": 2,
-      "type": "kids",
+      "type": "Comfort set",
+      "categ":"kids",
       "img": "/imgs/kids-2.png",
       "price": 34.99
     },
     {
       "id": 3,
-      "type": "men",
+      "type": "Black jacket",
+      "categ":"men",
       "img": "/imgs/men-Jacket-1.png",
       "price": 49.99
     },
     {
       "id": 4,
-      "type": "men",
+      "type": "Winter Hoodie",
+      "categ":"men",
       "img": "/imgs/men Jacket-2.png",
       "price": 59.99
     },
     {
       "id": 5,
-      "type": "men",
+      "type": "Denim jacket",
+      "categ":"men",
       "img": "/imgs/men Jacket-3.png",
       "price": 69.99
     },
     {
       "id": 6,
-      "type": "men",
+      "type": "Pink Tshirt",
+      "categ":"men",
       "img": "/imgs/Men TShirt-1.png",
       "price": 19.99
     },
     {
       "id": 7,
-      "type": "men",
+      "type": "Cloud white",
+      "categ":"men",
       "img": "/imgs/men TShirt-2.png",
       "price": 24.99
     },
     {
       "id": 8,
-      "type": "men",
+      "type": "Trendy Tees",
+      "categ":"men",
       "img": "/imgs/men TShirt-3.png",
       "price": 29.99
     },
     {
       "id": 9,
-      "type": "men",
+      "type": "Black jean",
+      "categ":"men",
       "img": "/imgs/Trouser-1 men.png",
       "price": 39.99
     },
     {
       "id": 10,
-      "type": "men",
+      "type": "Blue chino",
+      "categ":"men",
       "img": "/imgs/Men Trouser-2.png",
       "price": 44.99
     },
     {
       "id": 11,
-      "type": "women",
+      "type": "Party wear",
+      "categ":"women",
       "img": "/imgs/women casuals-1.png",
       "price": 59.99
     },
     {
       "id": 12,
-      "type": "women",
+      "type": "Floral midi",
+      "categ":"women",
       "img": "/imgs/women casuals.png",
       "price": 64.99
     },
     {
       "id": 13,
-      "type": "women",
+      "type": "Red jacket",
+      "categ":"women",
       "img": "/imgs/women Jacket-1.png",
       "price": 79.99
     },
     {
       "id": 14,
-      "type": "women",
+      "type": "Denim jacket",
+      "categ":"women",
       "img": "/imgs/women Jacket-2.png",
       "price": 89.99
     },
     {
       "id": 15,
-      "type": "women",
+      "type": "Solid shirts",
+      "categ":"women",
       "img": "/imgs/women top-1.png",
       "price": 29.99
     },
     {
       "id": 16,
-      "type": "women",
+      "type": "Solid Tees",
+      "categ":"women",
       "img": "/imgs/women TShirt-1.png",
       "price": 19.99
     },
     {
       "id": 17,
-      "type": "men",
+      "type": "Check shirts",
+      "categ":"men",
       "img": "/imgs/men Shirt-1.png",
       "price": 19.99
     },
     {
       "id": 18,
-      "type": "men",
+      "type": "Denim Jacket",
+      "categ":"men",
       "img": "/imgs/men Jacket-3.png",
       "price": 19.99
     },
     {
       "id": 19,
-      "type": "kids",
+      "type": "Comfort set",
+      "categ":"kids",
       "img": "/imgs/kids-2.png",
       "price": 19.99
     },
     {
       "id": 20,
-      "type": "men",
+      "type": "Trendy tees",
+      "categ":"men",
       "img": "/imgs/men TShirt-3.png",
       "price": 19.99
     }

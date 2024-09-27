@@ -13,10 +13,6 @@ import Footer from './components/Footer'
 import Allproducts from './pages/Allproducts';
 
 
-
-
-
-
 import './App.css'
 
 function App() {
@@ -27,16 +23,17 @@ function App() {
       
     <BrowserRouter>
       <Navbar/>
-     <SimpleSlider/>
-     <Categories/>
+      <SimpleSlider/>
+      <Categories/>
 
-     <Routes>
-        <Route path="/" element={<Trending />} />
-        <Route path="/Allproducts" element={<Allproducts />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Trending />} />
+          <Route path="/Allproducts" element={<Allproducts />} />
+        </Routes>
+        
       <Products/>
-     <Review/>
-     <Footer/>
+      <Review/>
+      <Footer/>
      </BrowserRouter>
      
      
