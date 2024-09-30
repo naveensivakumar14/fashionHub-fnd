@@ -139,6 +139,76 @@
       "categ":"men",
       "img": "/imgs/men TShirt-3.png",
       "price": 19.99
+    },
+    {
+      "id": 21,
+      "type": "White wing",
+      "categ":"women",
+      "img": "/imgs/women-shirt1.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 22,
+      "type": "Blue denim",
+      "categ":"women",
+      "img": "/imgs/women-jean2.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 23,
+      "type": "Blue regular",
+      "categ":"women",
+      "img": "/imgs/women-jean1.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 24,
+      "type": "Floral white",
+      "categ":"men",
+      "img": "/imgs/women-shirt2.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 25,
+      "type": "Style striped",
+      "categ":"women",
+      "img": "/imgs/women-shirt3.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 26,
+      "type": "Casual ",
+      "categ":"men",
+      "img": "/imgs/menshirt1.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 27,
+      "type": "Casual",
+      "categ":"men",
+      "img": "/imgs/menshirt2.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 28,
+      "type": "Casual",
+      "categ":"men",
+      "img": "/imgs/menshirt3.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 29,
+      "type": "Casual ",
+      "categ":"men",
+      "img": "/imgs/menshirt4.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 30,
+      "type": "Casual ",
+      "categ":"men",
+      "img": "/imgs/menshirt5.jpg",
+      "price": 19.99
     }
 
   ]

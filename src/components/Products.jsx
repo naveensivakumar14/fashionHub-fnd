@@ -7,7 +7,7 @@ function  Products(){
 
     return(
         
-        <div className="flex justify-between items-center flex-wrap p-14">
+        <div className="flex justify-between items-center flex-wrap p-14 xl:px-40">
             <div className="md:w-1/2 p-4">
                 <h1 className="text-2xl text-red-500 font-semibold md:font-bold mb-4">Grab Yours...</h1>
                 <p className="text-sm md:text-lg md:leading-relaxed">"Discover the latest trends and high-quality products at unbeatable prices. Our customer-focused service ensures a seamless shopping experience from start to finish. Shop with confidence and elevate your style today!"</p>

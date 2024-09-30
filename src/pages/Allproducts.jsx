@@ -28,6 +28,8 @@ const Allproducts = () => {
 
   return (
     <div className="bg-[#EEEDEB] md:p-14">
+      
+      {/* this block  common for trending.jsx and allproduct.jsx */}
        <h1 className="text-2xl md:text-3xl font-semibold text-center pt-6">All Products</h1>
        <div className="flex justify-center md:justify-end gap-6 py-10 ">
           <p onClick={handleTrendingPage}
@@ -45,7 +47,7 @@ const Allproducts = () => {
 
 
      
-    <div className=" grid grid-cols-2 md:grid-cols-5 gap-4 p-10">
+    <div className=" grid grid-cols-2 md:grid-cols-6 gap-4 p-10 xl:py-16 xl:px-40">
       {products.map((product) => (
         <div key={product.id} className="bg-[#efefef] border p-2 md:p-1 rounded-lg shadow-md">
           <img
@@ -54,7 +56,7 @@ const Allproducts = () => {
             className="w-full h-auto"
           />
           <div className="mt-1 p-2">
-            <h2 className="text-lg font-semibold">{product.type}</h2>
+            <h2 className="text-sm md:text-lg font-semibold">{product.type}</h2>
             <p className="text-sm text-gray-500">Price: ${product.price}</p>
           </div>
         </div>

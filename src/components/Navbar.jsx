@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 
 
@@ -22,11 +23,11 @@ function Navbar(){
            
             {/* Desktop navigation */}
             <ul className="justify-between gap-12 font-semibold hidden md:flex">
-                <li className="p-2 hover:text-blue-700">Home</li>
-                <li className="p-2 hover:text-blue-700 border-none rounded-md">Categories</li>
-                <li className=" p-2 hover:text-blue-700 border-none rounded-md">Trending</li>
-                <li className="p-2 hover:text-blue-700 border-none rounded-md">Reviews</li>
-                <li className="p-2 hover:text-blue-700 border-none rounded-md">Contacts</li>
+                <li className="p-2 hover:bg-pink-500 hover:text-white hover:border-none rounded-md"><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                <li className="p-2 hover:bg-pink-500 hover:text-white hover:border-none rounded-md"><Link to="categories" smooth={true} duration={500}>Categories</Link></li>
+                <li className="p-2 hover:bg-pink-500 hover:text-white hover:border-none rounded-md"><Link to="trending" smooth={true} duration={500}>Trending</Link></li>
+                <li className="p-2 hover:bg-pink-500 hover:text-white hover:border-none rounded-md"><Link to="reviews" smooth={true} duration={500}>Reviews</Link></li>
+                <li className="p-2 hover:bg-pink-500 hover:text-white hover:border-none rounded-md"><Link to="contacts" smooth={true} duration={500}>Contacts</Link></li>
             </ul>
 
             {/* Nav Icons */}
@@ -57,11 +58,11 @@ function Navbar(){
           className={`fixed top-16 right-0 h-screen min-w-[50%] bg-[#f3f0ff] flex flex-col items-center 
             gap-4 font-semibold text-lg transition-transform duration-500 ease-in-out transform 
             ${isOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}>
-          <li className="list-none w-full text-center p-2">Home</li>
-          <li className="list-none w-full text-center p-2">Categories</li>
-          <li className="list-none w-full text-center p-2">Trending</li>
-          <li className="list-none w-full text-center p-2">Review</li>
-          <li className="list-none w-full text-center p-2">Contacts</li>
+          <li className="list-none w-full text-center p-2"><Link to="home" smooth={true} duration={500}>Home</Link></li>
+          <li className="list-none w-full text-center p-2"><Link to="categories" smooth={true} duration={500}>Categories</Link></li>
+          <li className="list-none w-full text-center p-2"><Link to="trending" smooth={true} duration={500}>Trending</Link></li>
+          <li className="list-none w-full text-center p-2"><Link to="reviews" smooth={true} duration={500}>Reviews</Link></li>
+          <li className="list-none w-full text-center p-2"><Link to="contacts" smooth={true} duration={500}>Contacts</Link></li>
         </div>
 
             

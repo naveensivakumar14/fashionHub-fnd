@@ -22,18 +22,18 @@ function App() {
     <>
       
     <BrowserRouter>
-      <Navbar/>
-      <SimpleSlider/>
-      <Categories/>
-
-        <Routes>
-          <Route path="/" element={<Trending />} />
-          <Route path="/Allproducts" element={<Allproducts />} />
-        </Routes>
-        
-      <Products/>
-      <Review/>
-      <Footer/>
+        <Navbar/>
+        <div id="home"><SimpleSlider/></div>
+        <div id="categories"><Categories/></div>
+        <div id="trending">
+          <Routes>
+            <Route path="/" element={<Trending />} />
+            <Route path="/Allproducts" element={<Allproducts />} />
+          </Routes>
+        </div>
+        <Products/>
+        <div id="reviews"><Review/></div>
+        <div id="contacts"><Footer/></div>
      </BrowserRouter>
      
      
