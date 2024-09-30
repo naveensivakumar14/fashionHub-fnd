@@ -27,18 +27,7 @@ function Trending() {
     setActiveTab('trending'); // Set active state to 'trending'
     navigate('/');
   };
-
-  //usenavigation without dynamic buttons of trending,allproducts
-  // const handleproductpage = () => {
-  //   // Redirect to another page (e.g., "/Allproducts")
-  //   navigate('/Allproducts');
-  // };
-  // const handletrendingpage = () => {
-  //   // Redirect to another page (e.g., "/Allproducts")
-  //   navigate('/');
-  // };
-
-
+ 
   const trendProducts = [
     { id: 1, type: "women", img: pImg1 },
     { id: 2, type: "men", img: pImg2 },
