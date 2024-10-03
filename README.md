@@ -1,4 +1,4 @@
-# FashionHub E-Commerce MERN
+# FashionHub E-Commerce MERN 👕
 Welcome to the FashionHub E-commerce project repository! This project is a full-stack e-commerce platform developed using the MERN stack—MongoDB, Express.js, React.js, and Node.js.
 
 Overview
